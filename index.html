@@ -9,25 +9,29 @@
 </head>
 <body>
   <div class="card">
-    <div class="rating-content">
+
+    <div class="rating-content active" id="rateSection">
       <div class="star">
         <img src="images/icon-star.svg" alt="star">
       </div>
       <h2>How did we do?</h2>
       <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      <ul>
+      <ul id="rating">
         <li><input type="radio" name="rate" id="r1" value="1"><label for="r1">1</label></li>
         <li><input type="radio" name="rate" id="r2" value="2"><label for="r2">2</label></li>
         <li><input type="radio" name="rate" id="r3" value="3"><label for="r3">3</label></li>
         <li><input type="radio" name="rate" id="r4" value="4"><label for="r4">4</label></li>
         <li><input type="radio" name="rate" id="r5" value="5"><label for="r5">5</label></li>
       </ul>
-      <button type="submit">Submit</button>
+      <button type="submit" id="btn">Submit</button>
     </div>
 
 
-    <div class="thank-content">
-
+    <div class="thank-content" id="thankSection">
+      <img src="images/illustration-thank-you.svg" alt="thank you">
+      <p class="result">You selected <span id="rate">0</span> out of 5</p>
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </div>
   </div>
   <script src="script.js"></script>
