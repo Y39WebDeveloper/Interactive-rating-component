@@ -1,5 +1,5 @@
 # Frontend Mentor - Interactive rating component
-
+#live preview: https://y39webdeveloper.github.io/Interactive-rating-component/
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
